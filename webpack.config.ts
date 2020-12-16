@@ -54,8 +54,8 @@ const config: webpack.Configuration & WebpackDevServer.Configuration = {
 		mainFields: ['svelte', 'browser', 'module', 'main'],
 	},
 	output: {
-		publicPath: '/build/',
-		path: __dirname + '/public/build',
+		publicPath: '/cv-page-2/build/',
+		path: __dirname + '/cv-page-2/public/build',
 		filename: '[name].js',
 		chunkFilename: '[name].[id].js',
 	},
