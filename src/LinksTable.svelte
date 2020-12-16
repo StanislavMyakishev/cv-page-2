@@ -23,16 +23,16 @@
     border-spacing: 16px;
 
     a {
-        display: block;
-        color: #1A6DBB;
-        font-size: 18px;
-        text-decoration: none;
-        transition: all 250ms ease-out 0s;
-        transform: translate3d(0px, 0px, 0px);
+      display: block;
+      color: #1a6dbb;
+      font-size: 18px;
+      text-decoration: none;
+      transition: all 250ms ease-out 0s;
+      transform: translate3d(0px, 0px, 0px);
 
-        &:hover {
-          transform: translate3d(0px, -1px, 0px);
-        }
+      &:hover {
+        transform: translate3d(0px, -1px, 0px);
+      }
     }
   }
 
@@ -50,9 +50,7 @@
       <tbody>
         <tr>
           <td>telegram:</td>
-          <td>
-            <a href="https://t.me/smyakishev"> @smyakishev </a>
-          </td>
+          <td><a href="https://t.me/smyakishev"> @smyakishev </a></td>
         </tr>
         <tr>
           <td>email:</td>

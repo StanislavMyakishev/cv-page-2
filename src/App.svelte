@@ -1,8 +1,9 @@
 <script lang="ts">
   import LinksTable from "./LinksTable.svelte";
   type PrefixType = "eng" | "ru";
-  const getFileLink = (prefix: PrefixType) => `https://github.com/stanislavmyakishev/cv-page-2/raw/main/${prefix}_cv_myakishev.pdf`;
-  const fileName = 'myakishev_stanislav_cv.pdf';
+  const getFileLink = (prefix: PrefixType) =>
+    `https://github.com/StanislavMyakishev/cv-page-2/raw/main/src/assets/${prefix}_cv_myakishev.pdf`;
+  const fileName = "myakishev_stanislav_cv.pdf";
 </script>
 
 <style lang="scss">
@@ -16,7 +17,8 @@
     text-align: center;
   }
 
-  span, q {
+  span,
+  q {
     font-size: 22px;
     margin-bottom: 10px;
     line-height: 40px;
@@ -30,7 +32,7 @@
   }
 
   .highlighted {
-    background-color: #1A6DBB;
+    background-color: #1a6dbb;
     color: #fff;
   }
 
@@ -58,25 +60,19 @@
     </span>
     <br />
     <q>Brevity is the sister of talent</q>
-      <figure>
-        <figcaption>
-          &mdash; Anton Chekhov
-        </figcaption>
-      </figure>
+    <figure>
+      <figcaption>&mdash; Anton Chekhov</figcaption>
+    </figure>
     <br />
     <span>
       So instead of many words here you can find my CV
       <br />
       in&nbsp;
-      <a
-        href={getFileLink('eng')}
-        download={fileName}>
+      <a href={getFileLink('eng')} download={fileName}>
         <span class="highlight-link">english</span>
       </a>
       &nbsp;or in&nbsp;
-      <a
-        href={getFileLink('ru')}
-        download={fileName}>
+      <a href={getFileLink('ru')} download={fileName}>
         <span class="highlight-link">russian</span>
       </a>
       .
