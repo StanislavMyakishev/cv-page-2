@@ -55,7 +55,7 @@ const config: webpack.Configuration & WebpackDevServer.Configuration = {
 	},
 	output: {
 		publicPath: '/cv-page-2/build/',
-		path: __dirname + '/cv-page-2/public/build',
+		path: __dirname + '/docs/build',
 		filename: '[name].js',
 		chunkFilename: '[name].[id].js',
 	},
