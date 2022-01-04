@@ -1,12 +1,13 @@
 {
 	"private": true,
 	"scripts": {
-		"build": "cross-env NODE_ENV=production webpack",
+		"build": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider webpack",
 		"dev": "webpack-dev-server --content-base public --hot",
 		"start": "serve public -l 8080",
 		"validate": "svelte-check",
 		"fix": "npx eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
-		"format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\""
+		"format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
+		"deploy": "sh deploy.sh"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.11.5",
