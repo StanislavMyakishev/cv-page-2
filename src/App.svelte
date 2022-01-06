@@ -56,7 +56,7 @@
       My name is&nbsp;
       <span class="highlighted">Stanislav Myakishev</span>
       &nbsp;and I'm a&nbsp;
-      <span class="highlighted">front end developer</span>.
+      <span class="highlighted">front–end developer</span>.
     </span>
     <br />
     <q>Brevity is the sister of talent</q>
