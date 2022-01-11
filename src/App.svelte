@@ -2,8 +2,8 @@
   import LinksTable from "./LinksTable.svelte";
   type PrefixType = "eng" | "ru";
   const getFileLink = (prefix: PrefixType) =>
-    `https://github.com/StanislavMyakishev/cv-page-2/raw/main/src/assets/${prefix}_cv_myakishev.pdf`;
-  const fileName = "myakishev_stanislav_cv.pdf";
+    `https://github.com/StanislavMyakishev/cv-page-2/raw/main/src/assets/Stanislav_Myakishev_${prefix}.pdf`;
+  const fileName = "Stanislav_Myakishev_cv.pdf";
 </script>
 
 <style lang="scss">
