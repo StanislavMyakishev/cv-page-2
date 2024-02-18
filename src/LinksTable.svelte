@@ -1,5 +1,5 @@
 <script>
-  import Profile from "../public/favicon.png";
+  import Profile from "../public/profile.png";
 </script>
 
 <style lang="scss">
